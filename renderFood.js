@@ -1,6 +1,6 @@
 export function renderFoods(food) {
     const foodLi = document.createElement('li');
-    foodLi.classList.add('food-item')
+    foodLi.classList.add('food-item');
 
     const foodImg = document.createElement('img');
     foodImg.src = food.img;
