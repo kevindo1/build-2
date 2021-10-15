@@ -1,4 +1,4 @@
-import { food } from '../../food.js';
+import { foods } from '../../food.js';
 
 describe('Build #2 Tests', ()=>{
     before(()=>{
