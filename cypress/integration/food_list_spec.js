@@ -11,7 +11,7 @@ describe('Build #2 Tests', ()=>{
         });
     
         it('contains an <li> for each item in food.js', ()=>{
-            cy.get('ul#food-list').find('li.food-item').should('have.length', food.length);
+            cy.get('ul#food-list').find('li.food-item').should('have.length', foods.length);
         });
 
         it('contains a span and an image for each food item', ()=>{
