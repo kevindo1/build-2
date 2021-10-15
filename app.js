@@ -4,7 +4,7 @@ import { renderFoods } from "./renderFood.js";
 const foodList = document.getElementById('food-list')
 
 for (let food of foods) {
-    const foodCard = renderFoods(food);
+    const foodLi = renderFoods(food);
 
-    foodList.append(foodCard);
+    foodList.append(foodLi);
 }
